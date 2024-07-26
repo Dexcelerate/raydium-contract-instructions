@@ -17,5 +17,5 @@ default = []
 
 [dependencies]
 anchor-lang = "0.29.0"
-spl-token = { version="4.0.0", features = [ "no-entrypoint" ] }
+spl-token = { version="=4.0.0", features = [ "no-entrypoint" ] }
 amm-anchor = {path = "../../../../amm-anchor"}
